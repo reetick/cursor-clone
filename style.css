@@ -1,0 +1,421 @@
+*:root{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body{
+   background-color: #14120b;
+   color: #edecec;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* box-sizing: border-box; */
+   margin: 0;
+   padding: 0;
+   
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #14120b; 
+   height: 52px;
+   /* width: 100%; */
+   margin:0px 20px;
+   /* padding: 0 20px; */
+   position: sticky;
+   top: 0;
+}
+
+.features{
+   display: flex;
+   justify-content: space-around;
+   gap: 25px;
+   font-size: 14px;
+   
+}
+
+.button{
+   margin: 0;
+   padding: 5px 10px 5px;  
+   height: 28;
+   width: 67;
+   border-radius: 20px;
+
+}
+
+.hero-section{
+    padding: 112px 20px 67.2px;
+}
+
+.h1{
+    font-size: 26px;
+    margin: 0 0 22.4px;
+    width: 630px;
+}
+.h1, .window-button {
+   margin: 0 0 56px;
+   
+}
+
+.window-button{
+    padding: 12.48px 21px 12px;
+    font: 16px;
+    border-radius: 30px;
+}
+
+.poto{
+   width: 100%;
+   height: 680px;
+}
+
+.stacks{
+   margin: 0 20px;
+   padding: 0 20 33px;
+   width: 892;
+   height: 176;
+   
+}
+
+.h2{
+   font-size: 14px;
+   margin: 0px 0px 22px;
+   padding: 0 20 33px;
+   text-align: center   ;
+}
+
+.group {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 100px;
+   /* padding: 0px 7.7px; */
+   /* background-color: #1b1913; */
+   gap: 1px;
+   
+}
+.bla{
+   display: flex;
+   /* justify-content: center;
+   /* gap: 20px; */
+   
+   /* justify-content: space-between; */ 
+   justify-content: space-around;
+   align-items: center; 
+   width: 132px;
+   height: 100px;
+   padding: 0px;
+   margin: 0px;
+   background-color: #1b1913;
+}
+
+.sections-one, .sections-two, .sections-three{
+   display: flex;
+   justify-content: space-between;
+   width: 892px;
+   height:892px;
+   margin: 0;
+   padding: 67px 18px;
+}
+
+.card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      height: 860px;
+      padding: 16px;
+      background-color: #1b1913;
+}
+ 
+.testimo{
+   width: 100%s;
+   height: 670px;
+   padding: 0px 0px;
+   margin: 0;
+   /* background-color: #1b1913; */
+   justify-content: center;
+   align-items: center;
+}
+.ee{
+   display: flex;
+   justify-content: center;
+   
+   width: 100%; 
+   height: 43px; 
+   font-size: 36px;
+   
+}
+.gap{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 535px;
+   margin: 0px;
+   padding: 0;
+   gap: 2px;
+   
+   
+}
+
+.cardd{
+   
+   
+   width:  350px;
+   height:  210px;
+   margin: 0px;
+   padding: 15px 17px 17px;
+   background-color: #1b1913;
+   border-radius: 7px;
+}
+.rr{
+   display: flex;
+    width: 363px;
+    height: 42px;
+    margin: 44px 0px 0px;
+    
+  
+}
+.tt{
+   display: flex;
+   flex-direction: column;
+   margin: 0px 0px 0px;
+   padding: 0px 10px 0px;
+}
+
+.gg{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 17px;
+}
+
+.testt{
+   width: 100%s;
+   height: 668px;
+   padding: 0px 0px;
+   margin: 0;
+}
+
+.ff{
+   width: 380px; 
+   height: 43px; 
+   font-size: 28px;
+}
+
+.gapp{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 280px;
+   height: 535px;
+   margin: 0px;
+   padding: 0;
+   gap: 3px;
+   
+}
+.carddd{
+   padding: 15px 17px 17px;
+   width: 370px;
+   height: 500px;
+   background-color: #1b1913;
+}
+
+.changelog{ 
+   width: 340px;
+   height: 300px;
+   padding: 0px 20px;
+
+}
+
+.container{
+    width: 100%; 
+   height: 43px; 
+   font-size: 27px;
+}
+.four{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 140px;
+   gap: 7px;
+}
+
+.flex{
+ width:270px;
+ height: 110px;
+ background-color: #1b1913;
+ border-radius: 5px;
+ padding: 18px;
+ 
+}
+
+.jo{
+   margin: 0px;
+   padding: 0px;
+   width: 264px;
+   height: 24px;
+    background-color: #1b1913;
+   font-size: 16px;
+   gap: 2px;
+}
+.joo{
+   font-size: 17px;
+   margin: 0px;
+   padding: 7px 0px 10px;
+   width: 280px; 
+   height: 44px;
+}
+.buttonn{
+   margin: 0px 0px 0px;
+   padding: 5px 10px 5px;  
+   height: 28;
+   width: 67;
+   border-radius: 20px;
+}
+
+.yyy{
+   font-size: 17px;
+   margin: 0px;
+   padding: 25px 0px 0px;
+   width: 280px; 
+   height: 44px;
+   
+}
+.yyyy{
+ /* width:  277px;
+ height:   29px; */
+ font-size: 18px;
+   text-decoration: none;
+   color: #f54e00;
+   margin: 20px 0px 0px;
+}
+
+.lastt{
+   width: 1200px;
+   height:  686px;
+  background-color: #1b1913;
+  padding: 65px 20px 0px;
+  margin: 0px;
+  
+}
+.outer{
+   width: 795px;
+   height: 506px;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   
+   flex-wrap: wrap;
+   
+}
+
+.zz{
+   width: 350px;
+   height: 500px;
+   
+
+}
+
+.diff{
+    width: 350px;
+   height: 500px;
+
+}
+.claw{
+  width:608px;
+  height:506px;
+  
+}
+
+.jojo{
+   padding: 10px 15px 15px;
+  width:608px;
+  height:146px;
+  background-color: #2b282097;
+  border-radius: 8px;
+  margin: 10px 0px 0px;
+}
+.drip{
+   /* padding: 10px 15px 15px; */
+  width:565px;
+  height:24px;
+  
+}
+
+.lower{
+   margin: 15px 0px 0px;
+   color: #f54e00;
+}
+
+.vv{
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   flex-wrap: wrap;
+   align-items: center;
+   width: 1200px;
+   height: 250px;
+   padding: 90px 30px 50px;
+   margin: 0px;
+} 
+
+.oer{
+   background-color: #1b1913;
+   width: 1240px;
+   height: 380px;
+   padding: 60px 20px 40px;
+
+}
+.footer{
+   width: 100%;
+   height: 100%;
+   /* background-color: white; */
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.ally{
+     width: 235px;
+    height:  538px;
+    /* background-color: black; */
+}
+.ul{
+   display: flex;
+   align-items: center;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: grey;
+}
+.tl{
+   margin: 11px 0px 0px;
+}
+
+.litt{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: space-evenly;
+   
+}
+.kit{
+   margin: 0px;
+   padding: 5px 10px 5px;  
+   height: 30px;
+   width: 100px;
+   border-radius: 20px;
+   background-color: rgba(128, 128, 128, 0.701);
+   /* color: grey; */
+   /* border-color: #1b1913; */
+   border: 1px;
+}
+.icon-color{
+   color: white;
+}
